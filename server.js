@@ -1,6 +1,5 @@
 import express from "express";
 import cors from "cors";
-
 import { logger } from "logger-express";
 
 import loginRoutes from "./config/routes/loginRoutes.js";
