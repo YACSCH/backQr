@@ -1,0 +1,4 @@
+
+Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 13:47:19 GMT-0400 (hora estándar de Chile)
+  Parameters in body: {"phone":"+56982288959","solped":"9999999999","url":"https://es4prdnw.sap.aza.cl/sap/bc/ui2/flp"}
+Completed: 400 message:  Time response: 10 ms Request ID: [5c279b55-4a42-4543-bb2a-c6cd27df24b1]
