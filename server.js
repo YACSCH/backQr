@@ -1,7 +1,5 @@
 import express from "express";
 import cors from "cors";
-import { fileURLToPath } from 'url';
-import path, { dirname } from 'path';
 
 import { logger } from "logger-express";
 
@@ -24,6 +22,13 @@ app.use(cors());
 
 app.use("/api/v1", loginRoutes);
 app.use("/api/v1", lotesRoutes);
+
+app.get("/", (request, response) => {
+   const status = {
+      'Status': 'Running...'
+   };
+   response.send(status);
+}); 
 
 
 app.listen(PORT, console.log(`¡Servidor encendido en el puerto! ${PORT}`));
