@@ -5,9 +5,6 @@ import { logger } from "logger-express";
 import loginRoutes from "./config/routes/loginRoutes.js";
 import lotesRoutes from "./config/routes/lotesRoutes.js";
 
-
-
-
 const app = express();
 const PORT = process.env.PORT || 3000;
 
@@ -22,11 +19,11 @@ app.use(cors());
 app.use("/api/v1", loginRoutes);
 app.use("/api/v1", lotesRoutes);
 
-app.get("/", (request, response) => {
+app.get("/", (req, res) => {
    const status = {
       'Status': 'Running...'
    };
-   response.send(status);
+   res.send(status);
 }); 
 
 
