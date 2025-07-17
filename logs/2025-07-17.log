@@ -210,3 +210,15 @@ Completed: 200 message:  Time response: 710 ms Request ID: [6265aed9-d490-4928-a
 Started GET /api/v1/lotes/20254460 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:57:49 GMT-0400 (Chile Standard Time)
   Parameters in body: {"email":"user@user.cl","password":"user"}
 Completed: 200 message:  Time response: 721 ms Request ID: [f73e6afb-7f75-4974-b7f2-94989935bd3a]
+
+Started GET /api/v1/lotes/26254460 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 19:02:13 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 200 message:  Time response: 766 ms Request ID: [b6812ff5-10dc-40e9-9fb3-01890624c897]
+
+Started GET /api/v1/lotes/26254460 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 19:08:18 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 200 message:  Time response: 764 ms Request ID: [e7a891c9-1b2a-49d1-8783-cca926416795]
+
+Started GET /api/v1/lotes/26254460 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 19:13:47 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 200 message:  Time response: 741 ms Request ID: [ba3f87aa-222f-40dc-a0f4-c07387bb2f7c]

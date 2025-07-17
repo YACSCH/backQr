@@ -9,6 +9,7 @@ const getLotesId = async (req, res) => {
   
   try {
     const lotes = await getLotes(id);
+    
     res.status(200).json(lotes);
   } catch (error) {
     const errorFound = handleError(error.code) || [
