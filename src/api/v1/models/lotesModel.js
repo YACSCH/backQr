@@ -3,7 +3,7 @@ import pool from "../../../../config/db/conectionDb.js";
 
 const getLotes = async ({ id }) => {
   const SQLquery = {
-    text: `SELECT * from lotes WHERE id = $1`,
+    text: `SELECT * from lotesqr WHERE lote = $1`,
     values: [id],
   };
 

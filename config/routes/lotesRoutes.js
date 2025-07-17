@@ -11,7 +11,7 @@ import { isLogin } from "../../middlewares/isLogin.js"
 const router = express.Router();
 
 
-router.get("/lotes:id",isLogin, getActivity, getLotesId )
+router.get("/lotes/:id", isLogin, getActivity, getLotesId )
 
 
 export default router;

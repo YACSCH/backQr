@@ -6,8 +6,7 @@ const verifyUser = async (
 ) => {
     
     const sqlQuery = {
-        text: `SELECT * FROM Usuarios
-                        WHERE email= $1`,
+        text: `SELECT * FROM usuarios WHERE email = $1`,
         values: [email],
     }
     const response = await pool.query(sqlQuery);

@@ -38,3 +38,175 @@ Completed: 500 message:  Time response: 729 ms Request ID: [585953ac-4371-4283-a
 Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:20:00 GMT-0400 (Chile Standard Time)
   Parameters in body: {"email":"user@user.cl","password":"user"}
 Completed: 500 message:  Time response: 724 ms Request ID: [97a68edf-4b82-402f-b15a-cc4a2f3b9226]
+
+Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:22:06 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":""}
+Completed: 400 message:  Time response: 3 ms Request ID: [59fa0f58-2ab4-4958-a643-b63a03d2a7c4]
+
+Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:22:14 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 500 message:  Time response: 746 ms Request ID: [55bc9ac0-c5f5-48c6-8014-df3d923b614d]
+
+Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:22:46 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 500 message:  Time response: 709 ms Request ID: [cfbd2630-ee9b-427d-b4d6-3e76b3c1b781]
+
+Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:22:49 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 500 message:  Time response: 710 ms Request ID: [6b7d7d75-1a84-400a-a374-31a3687797bf]
+
+Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:23:33 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 500 message:  Time response: 732 ms Request ID: [33b8fec6-2731-4aff-b924-fbe4781759b9]
+
+Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:27:51 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 500 message:  Time response: 736 ms Request ID: [de0d5956-5407-45a2-a19b-c28baa9a9947]
+
+Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:28:09 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"users"}
+Completed: 500 message:  Time response: 704 ms Request ID: [157c3de3-62e8-4be5-8a49-b241360a7131]
+
+Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:28:14 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 500 message:  Time response: 703 ms Request ID: [cad0f36a-0592-42f8-8313-628e1e84e3c1]
+
+Started POST /api/v1/lotes for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:28:32 GMT-0400 (Chile Standard Time)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 2 ms Request ID: [947341e8-588a-4da1-84ba-24c7246e49f9]
+
+Started POST /api/v1/lotes/2025 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:29:26 GMT-0400 (Chile Standard Time)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 3 ms Request ID: [0d2f14be-589d-4efe-93d1-e6193c30d0f1]
+
+Started POST /api/v1/lotes/2025 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:29:27 GMT-0400 (Chile Standard Time)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 1 ms Request ID: [70930efe-b47e-4848-a72b-895940f6433b]
+
+Started POST /api/v1/lotes/2025 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:29:57 GMT-0400 (Chile Standard Time)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 2 ms Request ID: [7ae27622-d10c-4648-9d0e-1bb2b21fe0a9]
+
+Started POST /api/v1/lotes/2025 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:29:58 GMT-0400 (Chile Standard Time)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 1 ms Request ID: [27eb0141-7957-4af8-af88-588839bfa971]
+
+Started GET /api/v1/lotes/2025 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:30:12 GMT-0400 (Chile Standard Time)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 2 ms Request ID: [fbb37e55-7560-4ce0-9bbd-f099bc21d316]
+
+Started GET /api/v1/lotes/2025 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:30:13 GMT-0400 (Chile Standard Time)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 1 ms Request ID: [1043db8b-9625-4ee1-abac-647086e11145]
+
+Started GET /api/v1/lotes/2025 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:31:22 GMT-0400 (Chile Standard Time)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 2 ms Request ID: [5274d23a-c40f-4cbe-b63a-8c92bc3cdd87]
+
+Started GET /api/v1/lotes/2025 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:31:23 GMT-0400 (Chile Standard Time)
+  Parameters in body: [object Object]
+Completed: 404 message:  Time response: 2 ms Request ID: [bb113502-03b5-4d77-8145-cd89c5f60157]
+
+Started GET /api/v1/lotes/2025 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:31:55 GMT-0400 (Chile Standard Time)
+  Parameters in body: [object Object]
+Completed: 500 message:  Time response: 709 ms Request ID: [bda7b24e-8715-4d85-b96f-7bf2273bb9fe]
+
+Started GET /api/v1/lotes/2025 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:32:06 GMT-0400 (Chile Standard Time)
+  Parameters in body: [object Object]
+Completed: 500 message:  Time response: 711 ms Request ID: [2f615364-61b1-4c09-849a-8276453618ec]
+
+Started GET /api/v1/lotes/2025 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:32:20 GMT-0400 (Chile Standard Time)
+  Parameters in body: [object Object]
+Completed: 500 message:  Time response: 717 ms Request ID: [d834e2f5-7429-486e-bf4b-2cd508c2bbf5]
+
+Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:33:05 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 500 message:  Time response: 742 ms Request ID: [23228bff-3036-4d9c-87e8-3606e53abc92]
+
+Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:34:42 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 500 message:  Time response: 742 ms Request ID: [3b2d7704-86fc-4075-ba80-c448c8840f97]
+
+Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:35:02 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 500 message:  Time response: 715 ms Request ID: [6e346f12-a849-44ee-9421-bb62f0e4c23a]
+
+Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:44:08 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 500 message:  Time response: 762 ms Request ID: [9e7a9b9f-10f0-49d5-938a-8a115c685881]
+
+Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:45:10 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 500 message:  Time response: 725 ms Request ID: [acfeaf1f-7d95-43d6-82c6-81b15e9bb8de]
+
+Started GET /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:45:41 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 404 message:  Time response: 9 ms Request ID: [2b8afdb4-b29c-4cd7-b4d7-dad93c9551ad]
+
+Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:45:46 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 500 message:  Time response: 729 ms Request ID: [b317e3bd-0b6a-4d76-af53-39e167954c73]
+
+Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:46:23 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 401 message:  Time response: 5 ms Request ID: [82ad799e-262d-433f-847f-c5de6f4fd51d]
+
+Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:46:52 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 401 message:  Time response: 2 ms Request ID: [dc53b04f-c34e-4af2-9ac7-380df1eace64]
+
+Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:46:55 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 401 message:  Time response: 2 ms Request ID: [88140d77-8566-4730-9bc1-71057cc384fa]
+
+Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:46:56 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 401 message:  Time response: 1 ms Request ID: [6059271e-d379-43a8-8e6d-1eb4975cec24]
+
+Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:47:10 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 500 message:  Time response: 724 ms Request ID: [bf5a33a0-2c38-4c94-9ee5-3b7fb1263f0a]
+
+Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:49:20 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 200 message:  Time response: 1101 ms Request ID: [38f4c6d1-2be3-4d3c-9f8e-0e59ccf0b3d9]
+
+Started GET /api/v1/lotes/2604455 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:51:03 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 401 message:  Time response: 20 ms Request ID: [b7148b5e-5706-49ad-af0e-23a9c94b5516]
+
+Started GET /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:51:46 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 404 message:  Time response: 3 ms Request ID: [b06d674d-504a-4d9b-92e9-3759e0743830]
+
+Started POST /api/v1/login for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:51:55 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 200 message:  Time response: 1084 ms Request ID: [e65b40bf-9d44-4d6e-b83b-77391edef9c1]
+
+Started GET /api/v1/lotes/20254460 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:52:23 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 401 message:  Time response: 2 ms Request ID: [72ef99fd-d6c4-4a92-be16-eb6bbd700a8f]
+
+Started GET /api/v1/lotes/20254460 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:52:35 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 500 message:  Time response: 729 ms Request ID: [9a9136cc-0096-4b63-8b61-7527f4d44d2d]
+
+Started GET /api/v1/lotes/20254460 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:53:05 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 500 message:  Time response: 703 ms Request ID: [9ef94694-cd72-45a1-8032-a7b375ab99a1]
+
+Started GET /api/v1/lotes/20254460 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:54:23 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 500 message:  Time response: 747 ms Request ID: [c9641605-9016-496e-8859-8f72b0533220]
+
+Started GET /api/v1/lotes/20254460 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:57:16 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 500 message:  Time response: 753 ms Request ID: [bcbbfe79-34b4-4152-9cec-bcc0862ab3ab]
+
+Started GET /api/v1/lotes/20254460 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:57:34 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 200 message:  Time response: 710 ms Request ID: [6265aed9-d490-4928-a130-eb5e9d1f633d]
+
+Started GET /api/v1/lotes/20254460 for :: ::ffff:127.0.0.1 at Thu Jul 17 2025 18:57:49 GMT-0400 (Chile Standard Time)
+  Parameters in body: {"email":"user@user.cl","password":"user"}
+Completed: 200 message:  Time response: 721 ms Request ID: [f73e6afb-7f75-4974-b7f2-94989935bd3a]
