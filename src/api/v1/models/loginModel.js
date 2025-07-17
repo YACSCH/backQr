@@ -6,7 +6,7 @@ const verifyUser = async (
 ) => {
     
     const sqlQuery = {
-        text: `SELECT * FROM Users 
+        text: `SELECT * FROM Usuarios
                         WHERE email= $1`,
         values: [email],
     }
