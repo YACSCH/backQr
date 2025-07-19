@@ -29,7 +29,6 @@ const loginUser = async (req, res) => {
             message: `Ingreso Exitoso, email: ${email}`,
             code: 200,
             token,
-            user
         });
     } catch (err) {
         console.log(err);
