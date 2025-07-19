@@ -10,7 +10,12 @@ const getLotesId = async (req, res) => {
   try {
     const lotes = await getLotes(id);
     
+    if (!lotes || Object.keys(lotes).length === 0 || !lotes.lote) {
+      return res.status(404).json({ message: "No se encontraron lotes para el numero proporcionado." });
+    }
+
     res.status(200).json(lotes);
+
   } catch (error) {
     const errorFound = handleError(error.code) || [
       { status: 500, message: "Error interno del servidor" },
